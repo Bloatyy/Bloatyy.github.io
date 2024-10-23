@@ -1,14 +1,79 @@
 <!DOCTYPE html>
-<html>
-<style>
-    body {
-        text-align: center;
-    }
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-left: 35vmax;
+            height: 90vh;
+            width: 50vh;
+        }
+        #profile {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 8px;
+            background-color: rgb(55, 221, 55);
+        }
+        #name {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding-left: 8px;
+            background-color: rgb(16, 111, 211);
+        }
+        #bio {
+            border: 1px solid black;
+            font-size: 13px;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 8px;
+            background-color: rgb(232, 241, 72);
+        }
+        #contact {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding-left: 8px;
+            font-size: 15px;
+            background-color: rgb(133, 16, 211);
+        }
+        #social {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 8px;
+            background-color: rgb(238, 111, 14);
+        }
+        a {
+            text-decoration: none ;
+            color: yellow;
+        }
+        .circ {
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>This is a portfolio for my Projects</p>
-<p>-Made by Kunal</p>
+    <div class="main">
+        <div id="profile"><img class="circ" src="profile_pic.jpg" width="70px" height="70px" alt=""></div>
+        <div id="name">
+            <p style="color:white; text-align:center;">Kunal Singh Rathore</p>
+            <p style="text-align:center;">Web Developer at Lovely Prof.</p>
+        </div>
+        <div id="bio">I am pursuing B.Tech as a fresher in LPU and am very passionate about Tech. I've acquired skills in web development, like HTML, CSS and programming languages like C++, JavaScript and Python. </div>
+        <div id="contact">
+            <p><b>Email: </b>kunalsingh.2024@gmail.com</p>
+            <p><b>Phone: </b>+91-86487104xx</p>
+        </div>
+        <div id="social">
+            <a href="">Twitter</a>  <a href="">Linkedin</a>
+        </div>
+    </div>
 </body>
 </html>
